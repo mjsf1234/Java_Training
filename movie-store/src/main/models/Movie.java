@@ -103,6 +103,7 @@ public class Movie {
                 "\t Availability: " + (this.isAvailable ? "in-stock" : "rented") + "\n";
     }
 
+    // setting our own equal methode
     public boolean equals(Object obj) {
         if (obj == null) {
             return false;
